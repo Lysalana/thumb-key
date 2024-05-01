@@ -186,7 +186,6 @@ val KB_EN_QWERTEASE_MAIN =
                             size = FontSizeVariant.LARGE,
                             color = ColorVariant.PRIMARY,
                         ),
-                    swipeType = SwipeNWay.FOUR_WAY_DIAGONAL,
                     swipes =
                         mapOf(
                             SwipeDirection.TOP_RIGHT to
@@ -274,7 +273,7 @@ val KB_EN_QWERTEASE_MAIN =
                                     display = KeyDisplay.TextDisplay(";"),
                                     action = KeyAction.CommitText(";"),
                                     color = ColorVariant.MUTED,
-                                ),
+                                )
                         ),
                 ),
                 BACKSPACE_KEY_ITEM,
@@ -462,7 +461,6 @@ val KB_EN_QWERTEASE_SHIFTED =
                             size = FontSizeVariant.LARGE,
                             color = ColorVariant.PRIMARY,
                         ),
-                    swipeType = SwipeNWay.FOUR_WAY_DIAGONAL,
                     swipes =
                         mapOf(
                             SwipeDirection.TOP_RIGHT to
@@ -550,7 +548,7 @@ val KB_EN_QWERTEASE_SHIFTED =
                                     display = KeyDisplay.TextDisplay(";"),
                                     action = KeyAction.CommitText(";"),
                                     color = ColorVariant.MUTED,
-                                ),
+                                )
                         ),
                 ),
                 BACKSPACE_KEY_ITEM,
